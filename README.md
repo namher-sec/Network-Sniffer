@@ -27,7 +27,7 @@ A lightweight and efficient network sniffer that captures and analyzes network p
 ### 1. Clone the Repository  
 ```bash  
 git clone https://github.com/namher-sec/Network-Sniffer.git  
-cd network-sniffer
+cd Network-Sniffer
 ```
 
 ### 2. Build the Program  
