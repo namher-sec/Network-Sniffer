@@ -72,6 +72,8 @@ void print_banner() {
     printf("  Destination IP: %s\n", dst_ip);
 
     // Print additional IP Header fields.
+    printf("  Version: %u\n", ip_hdr->ip_v);
+    printf("  Header Length: %u bytes\n", ip_hdr->ip_hl * 4);
     printf("  Type of Service (TOS): 0x%02x\n", ip_hdr->ip_tos);
     printf("  Total Length: %u bytes\n", ntohs(ip_hdr->ip_len));
     printf("  Identification: 0x%04x (%u)\n", ntohs(ip_hdr->ip_id), ntohs(ip_hdr->ip_id));
